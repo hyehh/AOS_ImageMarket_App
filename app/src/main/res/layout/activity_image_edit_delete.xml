@@ -440,17 +440,32 @@
                         android:textColor="@color/black"
                         android:textSize="16dp" />
 
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/edit_delete_recyclerView"
+                    <FrameLayout
                         android:layout_width="match_parent"
-                        android:layout_height="180dp"
-                        android:layout_marginTop="20dp"
-                        android:orientation="horizontal"
-                        tools:listitem="@layout/detail_custom_layout"
-                        android:elevation="0dp"
-                        android:scrollbars="none"
-                        />
+                        android:layout_height="wrap_content"
+                        >
 
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/edit_delete_recyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal"
+                            tools:listitem="@layout/detail_custom_layout"
+                            android:elevation="0dp"
+                            android:scrollbars="none"
+                            android:visibility="visible"
+                            />
+
+                        <ImageView
+                            android:id="@+id/edit_delete_no_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:src="@drawable/ic_baseline_thumb_up_alt_24"
+                            android:visibility="invisible"
+                            />
+
+                    </FrameLayout>
 
                 </LinearLayout>
 

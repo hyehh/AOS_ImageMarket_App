@@ -15,15 +15,16 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
-import com.aosproject.imagemarket.Activity.ImageAddContentActivity;
 import com.aosproject.imagemarket.Activity.ImageAddImageActivity;
-import com.aosproject.imagemarket.Activity.ImageAddTagActivity;
+import com.aosproject.imagemarket.Activity.ImageAddLocationActivity;
 import com.aosproject.imagemarket.Activity.ImageDetailActivity;
 import com.aosproject.imagemarket.Adapter.ImageAdapterHJ;
+import com.aosproject.imagemarket.Bean.ImageHJ;
 import com.aosproject.imagemarket.Bean.UserHJ;
 import com.aosproject.imagemarket.NetworkTask.NetworkTaskImageHJ;
 import com.aosproject.imagemarket.NetworkTask.NetworkTaskUserHJ;
 import com.aosproject.imagemarket.R;
+import com.aosproject.imagemarket.Util.ShareVar;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -119,7 +120,7 @@ public class HomeFragment extends Fragment {
                                                 public void onClick(DialogInterface dialog, int which) {
                                                     // *************************** 도희님 개인정보 페이지 연결 ****************************
                                                     //Intent intent = new Intent(getActivity(), MyPage.class);
-                                                    Intent intent = new Intent(getActivity(), ImageAddTagActivity.class);
+                                                    Intent intent = new Intent(getActivity(), ImageAddLocationActivity.class);
                                                     // *************************** 도희님 개인정보 페이지 연결 ****************************
                                                     startActivity(intent);
                                                 }

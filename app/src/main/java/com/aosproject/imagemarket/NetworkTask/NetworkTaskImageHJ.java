@@ -5,6 +5,8 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
+import com.aosproject.imagemarket.Bean.ImageHJ;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
