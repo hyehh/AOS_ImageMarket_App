@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.content.DialogInterface;
@@ -15,13 +14,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.aosproject.imagemarket.Adapter.ImageDetailAdapterHJ;
 import com.aosproject.imagemarket.Adapter.ImageEditAdapterHJ;
 import com.aosproject.imagemarket.Bean.DealHJ;
 import com.aosproject.imagemarket.Bean.ImageHJ;

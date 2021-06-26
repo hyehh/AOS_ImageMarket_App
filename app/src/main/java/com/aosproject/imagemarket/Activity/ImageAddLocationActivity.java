@@ -3,16 +3,13 @@ package com.aosproject.imagemarket.Activity;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
-import android.text.Editable;
 import android.text.InputFilter;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -21,7 +18,6 @@ import android.widget.Toast;
 
 import com.aosproject.imagemarket.Bean.ImageHJ;
 import com.aosproject.imagemarket.NetworkTask.NetworkTaskAddImageHJ;
-import com.aosproject.imagemarket.NetworkTask.NetworkTaskImageAddHJ;
 import com.aosproject.imagemarket.NetworkTask.NetworkTaskImageHJ;
 import com.aosproject.imagemarket.R;
 import com.aosproject.imagemarket.Util.ShareVar;

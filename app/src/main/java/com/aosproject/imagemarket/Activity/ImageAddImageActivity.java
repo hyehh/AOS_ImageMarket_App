@@ -10,7 +10,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -19,12 +18,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
-import com.aosproject.imagemarket.NetworkTask.NetworkTaskImageAddHJ;
-import com.aosproject.imagemarket.NetworkTask.NetworkTaskImageHJ;
 import com.aosproject.imagemarket.R;
-import com.aosproject.imagemarket.Util.ShareVar;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -72,7 +67,6 @@ public class ImageAddImageActivity extends AppCompatActivity {
             Intent intent = null;
             switch (v.getId()){
                 case R.id.image_upload:
-                    button.setEnabled(true);
                     intent = new Intent(Intent.ACTION_PICK);
                     intent.setType(MediaStore.Images.Media.CONTENT_TYPE);
                     intent.setData(MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
@@ -109,7 +103,7 @@ public class ImageAddImageActivity extends AppCompatActivity {
                 int width = image_bitmap.getWidth();
 
                 Bitmap image_bitmap_copy = null;
-
+                button.setEnabled(true);
 
                 //image_bitmap 으로 받아온 이미지의 사이즈를 임의적으로 조절함. width: 400 , height: 300
 //                Bitmap image_bitmap_copy = Bitmap.createScaledBitmap(image_bitmap, 400, 300, true);

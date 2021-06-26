@@ -1,6 +1,5 @@
 package com.aosproject.imagemarket.Adapter;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
@@ -9,15 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aosproject.imagemarket.Bean.ImageHJ;
-import com.aosproject.imagemarket.Fragment.HomeFragment;
 import com.aosproject.imagemarket.R;
-import com.aosproject.imagemarket.Util.ShareVar;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.FitCenter;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;

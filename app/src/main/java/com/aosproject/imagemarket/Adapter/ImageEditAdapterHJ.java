@@ -13,8 +13,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aosproject.imagemarket.Activity.ImageDetailActivity;
-import com.aosproject.imagemarket.Activity.ImageEditActivity;
 import com.aosproject.imagemarket.Activity.ImageEditDeleteActivity;
 import com.aosproject.imagemarket.Bean.ImageHJ;
 import com.aosproject.imagemarket.R;

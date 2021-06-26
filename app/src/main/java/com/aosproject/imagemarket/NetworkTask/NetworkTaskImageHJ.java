@@ -4,9 +4,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.ImageView;
-
-import com.aosproject.imagemarket.Bean.ImageHJ;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

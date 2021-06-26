@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,18 +17,13 @@ import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.aosproject.imagemarket.Activity.ImageAddContentActivity;
 import com.aosproject.imagemarket.Activity.ImageAddImageActivity;
-import com.aosproject.imagemarket.Activity.ImageAddLocationActivity;
 import com.aosproject.imagemarket.Activity.ImageAddTagActivity;
 import com.aosproject.imagemarket.Activity.ImageDetailActivity;
-import com.aosproject.imagemarket.Activity.ImageEditActivity;
-import com.aosproject.imagemarket.Activity.ImageEditDeleteActivity;
 import com.aosproject.imagemarket.Adapter.ImageAdapterHJ;
-import com.aosproject.imagemarket.Bean.ImageHJ;
 import com.aosproject.imagemarket.Bean.UserHJ;
 import com.aosproject.imagemarket.NetworkTask.NetworkTaskImageHJ;
 import com.aosproject.imagemarket.NetworkTask.NetworkTaskUserHJ;
 import com.aosproject.imagemarket.R;
-import com.aosproject.imagemarket.Util.ShareVar;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
