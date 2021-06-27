@@ -116,7 +116,7 @@
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:layout_margin="20dp"
-                    android:backgroundTint="@color/purple_500"
+                    android:enabled="false"
                     />
 
             </LinearLayout>

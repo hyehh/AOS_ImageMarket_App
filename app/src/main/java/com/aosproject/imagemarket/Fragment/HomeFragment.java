@@ -98,7 +98,7 @@ public class HomeFragment extends Fragment {
         @Override
         public void onClick(View v) {
             new AlertDialog.Builder(getActivity())
-                    .setMessage("이미지를 판매 등록을 진행하시겠습니까?")
+                    .setMessage("이미지 판매 등록을 진행하시겠습니까?")
                     .setCancelable(false)
                     .setNegativeButton("Cancel", null)
                     .setPositiveButton("OK", new DialogInterface.OnClickListener() {

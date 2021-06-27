@@ -486,7 +486,8 @@
                                     android:id="@+id/detail_no_image"
                                     android:layout_width="match_parent"
                                     android:layout_height="180dp"
-                                    android:src="@drawable/ic_baseline_thumb_up_alt_24"
+                                    android:layout_marginTop="20dp"
+                                    android:src="@drawable/detail_no_image"
                                     android:visibility="invisible"
                                     />
 
