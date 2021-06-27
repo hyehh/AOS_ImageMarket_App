@@ -176,6 +176,7 @@ public class ImageEditActivity extends AppCompatActivity {
                             }
                         });
                         chipGroup.addView(chip);
+                        tagEdit.setText("");
                     }
                     break;
                 case R.id.edit_ivbtn_back:

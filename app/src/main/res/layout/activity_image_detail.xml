@@ -78,7 +78,7 @@
                         android:id="@+id/detail_image_watermark"
                         android:layout_width="match_parent"
                         android:layout_height="420dp"
-                        android:src="@drawable/ic_baseline_thumb_up_24"
+                        android:src="@drawable/watermark"
                         android:background="#00ffffff"
                         />
 
